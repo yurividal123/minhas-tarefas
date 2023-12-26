@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import * as S from './styles'
 
-import * as enums from '../../utils/enums/Tarefa'
-
 import { remover, editar } from '../../store/reducers/tarefas'
 import TarefaCclass from '../../models/Tarefa'
 
